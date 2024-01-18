@@ -1,0 +1,28 @@
+{
+  "name": "next-server-action-bug-repro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@lucia-auth/adapter-prisma": "4.0.0-beta.9",
+    "arctic": "0.10.5",
+    "lucia": "3.0.0-beta.14",
+    "next": "14.0.4",
+    "oslo": "0.27.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "server-only": "0.0.1",
+    "typescript": "5.3.3"
+  }
+}
